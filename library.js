@@ -45,8 +45,8 @@
 				consumerSecret: ''
 			},
 			oauth2: {
-				authorizationURL: endpointRoot + '/authorize',
-				tokenURL: endpointRoot + '/oauth/token',
+				authorizationURL: endpointRoot + '/oauth2/authorize',
+				tokenURL: endpointRoot + '/oauth2/token',
 				clientID: clientID,
 				clientSecret: clientSecret
 			},

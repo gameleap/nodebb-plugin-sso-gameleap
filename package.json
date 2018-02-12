@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-sso-gameleap",
-  "version": "0.3.6",
+  "version": "0.3.7",
   "description": "NodeBB GameLeap OAuth SSO",
   "main": "library.js",
   "repository": {
