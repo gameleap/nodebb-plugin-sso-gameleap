@@ -29,7 +29,7 @@
 
 	var authenticationController = module.parent.require('./controllers/authentication');
 	var endpointRoot = process.env.OAUTH_ENDPOINT_ROOT || 'https://api.gameleap.com/api';
-	var siteRoot = process.env.OAUTH_ENDPOINT_ROOT || 'https://ow.gameleap.com';
+	var siteRoot = process.env.SITE_ROOT || 'https://ow.gameleap.com';
 	var clientID = process.env.OAUTH_CLIENT_ID || 'R3kRbmCep61muK9MDrktE9780coI1h';
 	var clientSecret = process.env.OAUTH_CLIENT_SECRET || 'HcXGYb49qZI5QFXDElbpSLzMo0uWVY';
 	var providerName = process.env.OAUTH_PROVIDER_NAME || 'gameleap';
